@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: start;
+  margin-left: 2%;
 }
 
 .App-logo {
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title{
+  display: flex;
+  align-items: flex-start;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.IdCard {
+  display:flex;
+  margin-left: 5px;
+  padding: 1%;
+}
+
+.box {
+  border: solid 1px black;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.info {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.color-box{
+  border: solid 1px black;
+  padding: 5px;
+  margin: 10px 0;
+  height: 15vh;
 }
